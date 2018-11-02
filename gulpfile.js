@@ -19,7 +19,7 @@ gulp.task('sass', function() {
 
 gulp.task('scripts', function() {
     return gulp.src(['!src/js/scripts.min.js', 
-    'src/libs/particles.js/particles.min.js',
+    'src/libs/particles.js/particles.js',
     'src/js/**/*.js'
     ]) //Найдем наш main файл
         .pipe(sourcemaps.init()) //Инициализируем sourcemap
